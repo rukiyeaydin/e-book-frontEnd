@@ -1,0 +1,41 @@
+.yazicerik{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.yazicerik h2{
+    margin-block: 20px;
+}
+
+.yazicerikbtn{
+    padding: 5px 20px;
+    border: none;
+    background-color: #1495a9;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+.yazicerikbtn:hover{
+    background-color: #30acbf;
+}
+
+.quill{
+    width: 90%;
+    height: 70vh;
+    margin-bottom: 8vh;
+}
+
+@media screen and (max-width: 450px) {
+    .quill{
+        width: 96%;
+        margin-bottom: 8vh;
+    }
+}
+@media screen and (max-width: 390px) {
+    .quill{
+        margin-bottom: 12vh;
+    }
+}

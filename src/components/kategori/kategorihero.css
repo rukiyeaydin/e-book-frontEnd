@@ -1,0 +1,59 @@
+.kategorilerall{
+    margin-block: 20px;
+}
+.kategoriler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kategori {
+    position: relative;
+    height: auto;
+    width: 300px;
+    cursor: pointer;
+    margin: 5px;
+    border: 2px solid rgba(193, 193, 193, 0.616);
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.kategori p{
+    font-weight: bold;
+    margin: 5px 0px;
+}
+  
+.kategori img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.overlay {
+    position: absolute;
+    border-radius: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    transition: .3s ease-in-out;
+    background-color: #45c7dbb6;
+}
+.kategori:hover .overlay {
+    opacity: 1;
+    width: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
