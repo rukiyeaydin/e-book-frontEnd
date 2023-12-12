@@ -14,6 +14,7 @@
     margin: 5px;
     border: 2px solid rgba(193, 193, 193, 0.616);
     border-radius: 5px;
+    text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .kategori p{
@@ -29,6 +30,11 @@
 }
 .overlay {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
     border-radius: 5px;
     top: 0;
     bottom: 0;
@@ -43,17 +49,4 @@
 .kategori:hover .overlay {
     opacity: 1;
     width: 100%;
-}
-
-.text {
-    color: white;
-    font-size: 25px;
-    font-weight: 900;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
 }

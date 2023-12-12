@@ -69,7 +69,13 @@ select {
 .kih1{
     margin-top: 30px;
 }
-
+.kibaslik, .kiyazar{
+    color: black;
+    text-decoration: none;
+}
+.kiyazar:hover, .kibaslik:hover{
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 1024px) {
     .kikitap img{

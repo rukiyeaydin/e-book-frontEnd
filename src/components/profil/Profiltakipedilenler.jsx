@@ -17,13 +17,13 @@ const Profiltakipedilenler = () => {
 
   return (
     <div className="phaltsec">
-        <h2 style={{borderBottom:'1px solid black'}} className='phaltbaslik'>Takipçiler</h2>
+        <h2 style={{borderBottom:'1px solid black'}} className='phaltbaslik'>Takip Edilenler</h2>
         <div className="profiller">
             <div className="profil">
                 <img src={ba} alt="profil-resmi" className='profil-resmi'/>
                 <div className="profil-bilgi">
-                    <p>Rukiye Aydısdedewwen</p>
-                    <Link className='profilusername'>rukiyeaydinededededecxce</Link>
+                    <p>Rukiye Aydın<nav></nav></p>
+                    <Link className='profilusername'>rukiyeaydin</Link>
                 </div>
                 <button className={isFollowed ? 'profilbuton' : 'profilbuton active'} onClick={handleTakipButton}>
                     {

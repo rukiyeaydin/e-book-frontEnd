@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './kategorilericerik.css';
 import { AiFillEye, AiFillStar } from 'react-icons/ai'
 import babalar from '../../images/seninicinoneriler/babalar.jpg'
 
-const Kategorilericerik = ({ categoryName }) => {
+const Kategorilericerik = () => {
   const [data, setData] = useState('En çok okunanlar');
 
   const handleInputChange = (event) => {
@@ -12,7 +13,7 @@ const Kategorilericerik = ({ categoryName }) => {
 
   return (
     <div className='kategorilericerik'>
-      <h1 className='kih1'>{categoryName}</h1>
+      <h1 className='kih1'>Aksiyon</h1>
       <div className="ustbilgi">
         <form className='kiform'>
           <select value={data} onChange={handleInputChange}>
@@ -24,10 +25,10 @@ const Kategorilericerik = ({ categoryName }) => {
       </div>
       <div className="kikitaplar">
         <div className="kikitap">
-          <img src={babalar} alt="" />
+          <Link to="/kitap"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <p className="kibaslik">Babalar ve Oğullar</p>
-            <p className="kiyazar">By Turgenyev</p>
+            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
                 <AiFillEye className='kiicon'/>443K
@@ -42,10 +43,10 @@ const Kategorilericerik = ({ categoryName }) => {
           </div>
         </div>
         <div className="kikitap">
-          <img src={babalar} alt="" />
+          <Link to="/kitap"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <p className="kibaslik">Babalar ve Oğullar</p>
-            <p className="kiyazar">By Turgenyev</p>
+            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
                 <AiFillEye className='kiicon'/>443K
@@ -55,15 +56,15 @@ const Kategorilericerik = ({ categoryName }) => {
               </span>
             </div>
             <div className="kitext">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, qui?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
             </div>
           </div>
         </div>
         <div className="kikitap">
-          <img src={babalar} alt="" />
+          <Link to="/kitap"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <p className="kibaslik">Babalar ve Oğullar</p>
-            <p className="kiyazar">By Turgenyev</p>
+            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
                 <AiFillEye className='kiicon'/>443K
@@ -73,15 +74,15 @@ const Kategorilericerik = ({ categoryName }) => {
               </span>
             </div>
             <div className="kitext">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, qui?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
             </div>
           </div>
         </div>
         <div className="kikitap">
-          <img src={babalar} alt="" />
+          <Link to="/kitap"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <p className="kibaslik">Babalar ve Oğullar</p>
-            <p className="kiyazar">By Turgenyev</p>
+            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
                 <AiFillEye className='kiicon'/>443K
@@ -91,15 +92,15 @@ const Kategorilericerik = ({ categoryName }) => {
               </span>
             </div>
             <div className="kitext">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, qui?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
             </div>
           </div>
         </div>
         <div className="kikitap">
-          <img src={babalar} alt="" />
+          <Link to="/kitap"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <p className="kibaslik">Babalar ve Oğullar</p>
-            <p className="kiyazar">By Turgenyev</p>
+            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
                 <AiFillEye className='kiicon'/>443K
@@ -109,15 +110,15 @@ const Kategorilericerik = ({ categoryName }) => {
               </span>
             </div>
             <div className="kitext">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, qui?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
             </div>
           </div>
         </div>
         <div className="kikitap">
-          <img src={babalar} alt="" />
+          <Link to="/kitap"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <p className="kibaslik">Babalar ve Oğullar</p>
-            <p className="kiyazar">By Turgenyev</p>
+            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
                 <AiFillEye className='kiicon'/>443K
@@ -127,15 +128,15 @@ const Kategorilericerik = ({ categoryName }) => {
               </span>
             </div>
             <div className="kitext">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, qui?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
             </div>
           </div>
         </div>
         <div className="kikitap">
-          <img src={babalar} alt="" />
+          <Link to="/kitap"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <p className="kibaslik">Babalar ve Oğullar</p>
-            <p className="kiyazar">By Turgenyev</p>
+            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
                 <AiFillEye className='kiicon'/>443K
@@ -145,15 +146,15 @@ const Kategorilericerik = ({ categoryName }) => {
               </span>
             </div>
             <div className="kitext">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, qui?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
             </div>
           </div>
         </div>
         <div className="kikitap">
-          <img src={babalar} alt="" />
+          <Link to="/kitap"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <p className="kibaslik">Babalar ve Oğullar</p>
-            <p className="kiyazar">By Turgenyev</p>
+            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
                 <AiFillEye className='kiicon'/>443K
@@ -163,7 +164,7 @@ const Kategorilericerik = ({ categoryName }) => {
               </span>
             </div>
             <div className="kitext">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, qui?</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, sed.</p>
             </div>
           </div>
         </div>

@@ -22,8 +22,8 @@ const Profiltakipciler = () => {
             <div className="profil">
                 <img src={ba} alt="profil-resmi" className='profil-resmi'/>
                 <div className="profil-bilgi">
-                    <p>Rukiye Aydısdedewwen</p>
-                    <Link className='profilusername'>rukiyeaydinededededecxce</Link>
+                    <p>Rukiye Aydın</p>
+                    <Link to="/profil" target='_top' className='profilusername'>rukiyeaydin</Link>
                 </div>
                 <button className={isFollowed ? 'profilbuton' : 'profilbuton active'} onClick={handleTakipButton}>
                     {
@@ -31,56 +31,7 @@ const Profiltakipciler = () => {
                     }
                 </button>
             </div>
-            <div className="profil">
-                <img src={ba} alt="profil-resmi" className='profil-resmi'/>
-                <div className="profil-bilgi">
-                    <p>Rukiye Aydısdedewwen</p>
-                    <Link className='profilusername'>rukiyeaydinededededecxce</Link>
-                </div>
-                <button className={isFollowed ? 'profilbuton' : 'profilbuton active'} onClick={handleTakipButton}>
-                    {
-                    isFollowed ? <MdPersonAddAlt1 style={{marginRight:'5px'}}/> : <BsFillPersonCheckFill style={{marginRight:'5px'}}/>
-                    }
-                </button>
-            </div>
-            <div className="profil">
-                <img src={ba} alt="profil-resmi" className='profil-resmi'/>
-                <div className="profil-bilgi">
-                    <p>Rukiye Aydısdedewwen</p>
-                    <Link className='profilusername'>rukiyeaydinededededecxce</Link>
-                </div>
-                <button className={isFollowed ? 'profilbuton' : 'profilbuton active'} onClick={handleTakipButton}>
-                    {
-                    isFollowed ? <MdPersonAddAlt1 style={{marginRight:'5px'}}/> : <BsFillPersonCheckFill style={{marginRight:'5px'}}/>
-                    }
-                </button>
-            </div>
-            <div className="profil">
-                <img src={ba} alt="profil-resmi" className='profil-resmi'/>
-                <div className="profil-bilgi">
-                    <p>Rukiye Aydısdedewwen</p>
-                    <Link className='profilusername'>rukiyeaydinededededecxce</Link>
-                </div>
-                <button className={isFollowed ? 'profilbuton' : 'profilbuton active'} onClick={handleTakipButton}>
-                    {
-                    isFollowed ? <MdPersonAddAlt1 style={{marginRight:'5px'}}/> : <BsFillPersonCheckFill style={{marginRight:'5px'}}/>
-                    }
-                </button>
-            </div>
-            <div className="profil">
-                <img src={ba} alt="profil-resmi" className='profil-resmi'/>
-                <div className="profil-bilgi">
-                    <p>Rukiye Aydısdedewwen</p>
-                    <Link className='profilusername'>rukiyeaydinededededecxce</Link>
-                </div>
-                <button className={isFollowed ? 'profilbuton' : 'profilbuton active'} onClick={handleTakipButton}>
-                    {
-                    isFollowed ? <MdPersonAddAlt1 style={{marginRight:'5px'}}/> : <BsFillPersonCheckFill style={{marginRight:'5px'}}/>
-                    }
-                </button>
-            </div>
-        </div>
-        
+        </div>   
     </div>
   )
 }

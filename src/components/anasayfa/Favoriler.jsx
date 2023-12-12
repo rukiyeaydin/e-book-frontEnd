@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './homepage.css'
 import { BsArrowLeftCircle, BsArrowRightCircle } from 'react-icons/bs'
 import babalar from '../../images/seninicinoneriler/babalar.jpg'
@@ -26,38 +27,38 @@ const Favoriler = () => {
                 {!isRightActive && (
                 <div className="set1">
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href='/'><img src={babalar} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={babalar} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href="/"><img src={baslangic} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={baslangic} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href="/"><img src={fareler} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={fareler} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href="/"><img src={gurur} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={gurur} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href="/"><img src={kuyucakli} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={kuyucakli} alt="book" /></Link>
                     </div>
                 </div>
                 )}
                 {isRightActive && (
                 <div className="set2">
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href='/'><img src={baslangic} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={gurur} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href="/"><img src={babalar} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={kuyucakli} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href="/"><img src={fareler} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={babalar} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href="/"><img src={gurur} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={baslangic} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <a href="/"><img src={kuyucakli} alt="book" /></a>
+                        <Link to='/kitap' target='_top'><img src={fareler} alt="book" /></Link>
                     </div>
                 </div>
                 )}
