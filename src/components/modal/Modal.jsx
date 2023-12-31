@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "./modal.css";
-import { AiFillQuestionCircle, AiFillGithub,AiFillLinkedin } from "react-icons/ai"
+import { Link } from "react-router-dom";
+import { FaSearch } from "react-icons/fa";
+import { IoIosClose } from "react-icons/io";
+
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
@@ -17,18 +20,21 @@ export default function Modal() {
 
   return (
     <>
-      <div onClick={toggleModal} className="btn-modal"><AiFillQuestionCircle/></div>
+      <div onClick={toggleModal} className="btn-modal"><FaSearch className="modalikon"/></div>
 
       {modal && (
         <div className="modal">
-          <div onClick={toggleModal} className="overlay"></div>
+          <div onClick={toggleModal} className="overlaymodal"></div>
           <div className="modal-content">
-            <h2>Made by Rukiye Aydın</h2>
-            <div className="modal-icons">
-                <a href="https://github.com/rukiyeaydin" style={{marginInline:"10px", color:"white"}}><AiFillGithub/></a>
-                <a href="https://www.linkedin.com/in/rukiye-ayd%C4%B1n-015743207/" style={{marginInline:"10px", color:"white"}}><AiFillLinkedin/></a>
+            <input type="text" placeholder="Kitap Ara" className="modalinput"/>
+            <div className="modal-results">
+              <Link to="/kitap" className="modal-result" onClick={toggleModal}>Babalar ve Oğullar</Link>
+              <Link to="/kitap" className="modal-result" onClick={toggleModal}>Babalar ve Oğullar</Link>
+              <Link to="/kitap" className="modal-result" onClick={toggleModal}>Babalar ve Oğullar</Link>
+              <Link to="/kitap" className="modal-result" onClick={toggleModal}>Babalar ve Oğullar</Link>
+              <Link to="/kitap" className="modal-result" onClick={toggleModal}>Babalar ve Oğullar</Link>
             </div>
-            <button className="close-modal" onClick={toggleModal}>CLOSE</button>
+            <div className="close-modal" onClick={toggleModal}><IoIosClose className="close-modal-icon"/></div>
           </div>
         </div>
       )}

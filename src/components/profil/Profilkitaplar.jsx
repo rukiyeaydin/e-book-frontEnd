@@ -9,9 +9,9 @@ const Profilkitaplar = () => {
         <p style={{borderBottom:'1px solid black'}} className='phaltbaslik'>Kitaplar</p>
         <div className="phkitaplar">
             <div className="phkitap">
-                <Link to="/kitap"><img src={babalar} alt="" /></Link>
+                <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
                 <div className="phsag">
-                    <Link to="/kitap" className="phbaslik" target='_top'>Babalar ve Oğullar</Link>
+                    <Link to="/kitap-info" className="phbaslik" target='_top'>Babalar ve Oğullar</Link>
                     <Link to="/profil" target='_top' className='phyazarl'><p className="phyazar">By Turgenyev</p></Link>
                     <div className="phstat">
                         <span className="read-count">
@@ -22,14 +22,14 @@ const Profilkitaplar = () => {
                         </span>
                     </div>
                     <div className="phtext">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, qui?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, labore.</p>
                     </div>
                 </div>
             </div>
             <div className="phkitap">
-                <Link to="/kitap"><img src={babalar} alt="" /></Link>
+                <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
                 <div className="phsag">
-                    <Link to="/kitap" className="phbaslik" target='_top'>Babalar ve Oğullar</Link>
+                    <Link to="/kitap-info" className="phbaslik" target='_top'>Babalar ve Oğullar</Link>
                     <Link to="/profil" target='_top' className='phyazarl'><p className="phyazar">By Turgenyev</p></Link>
                     <div className="phstat">
                         <span className="read-count">

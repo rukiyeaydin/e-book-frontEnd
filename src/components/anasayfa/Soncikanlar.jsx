@@ -27,38 +27,38 @@ const Soncikanlar = () => {
                 {!isRightActive && (
                 <div className="set1">
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={babalar} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={babalar} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={baslangic} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={baslangic} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={fareler} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={fareler} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={gurur} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={gurur} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={kuyucakli} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={kuyucakli} alt="book" /></Link>
                     </div>
                 </div>
                 )}
                 {isRightActive && (
                 <div className="set2">
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={gurur} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={gurur} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={kuyucakli} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={kuyucakli} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={babalar} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={babalar} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={baslangic} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={baslangic} alt="book" /></Link>
                     </div>
                     <div className="book" style={{marginRight:'7px'}}>
-                        <Link to='/kitap' target='_top'><img src={fareler} alt="book" /></Link>
+                        <Link to='/kitap-info' target='_top'><img src={fareler} alt="book" /></Link>
                     </div>
                 </div>
                 )}

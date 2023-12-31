@@ -1,52 +1,66 @@
-.kategorilerall{
-    margin-block: 20px;
-}
-.kategoriler{
+.kategoriicerikall{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.kategori {
-    position: relative;
-    height: auto;
-    width: 300px;
-    cursor: pointer;
-    margin: 5px;
-    border: 2px solid rgba(193, 193, 193, 0.616);
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-.kategori p{
-    font-weight: bold;
-    margin: 5px 0px;
-}
-  
-.kategori img {
-    display: block;
+    margin-block: 30px;
     width: 100%;
-    height: auto;
-    border-radius: 5px;
 }
-.overlay {
-    position: absolute;
+
+.kategorilertrio{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+}
+.kategorilnk{
+    width: 290px;
+    height: 90px;    
     color: white;
-    text-align: center;
-    border-radius: 5px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 0%;
-    opacity: 0;
-    transition: .3s ease-in-out;
-    background-color: #45c7dbb6;
+    font-size: medium;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 5px 10px 5px;
 }
-.kategori:hover .overlay {
-    opacity: 1;
-    width: 100%;
+
+#aksiyon{
+    background: linear-gradient(to right, #f72c44, #7b1c12);
+}
+#ask{
+    background: linear-gradient(to left, #ec008c, #fc6767);
+}
+#bilimkurgu{
+    background: linear-gradient(to left, #11998e, #38ef7d);
+}
+#fantastik{
+    background: linear-gradient(to left, #808080, #3fada8);
+}
+#korku{
+    background: linear-gradient(to left, #000000, #434343);
+}
+#macera{
+    background: linear-gradient(to left, #c02425, #f0cb35);
+}
+#mizah{
+    background: linear-gradient(to left, #cac531, #f3f9a7); 
+}
+#tarih{
+    background-image: linear-gradient(to left, #4d3319, #ad7843);
+}
+#siir{
+    background: linear-gradient(to left, #a770ef, #cf8bf3, #fdb99b);
+}
+
+@media screen and (max-width: 500px) {
+    .kategorilertrio{
+        flex-direction: column;
+    }
+    .kategorilnk{
+        width: 96%;
+        height: 60px;
+    }
 }

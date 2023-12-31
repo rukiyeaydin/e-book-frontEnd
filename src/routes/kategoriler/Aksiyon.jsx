@@ -4,12 +4,11 @@ import Kategorilericerik from '../../components/kategori/Kategorilericerik'
 import Footer from '../../components/Footer'
 
 const Aksiyon = () => {
-  const kategoriAdi = 'Aksiyon';
 
   return (
     <div>
       <Navbar />
-      <Kategorilericerik categoryName={kategoriAdi} />
+      <Kategorilericerik/>
       <Footer />
     </div>
   )

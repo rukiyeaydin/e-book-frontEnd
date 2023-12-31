@@ -1,79 +1,28 @@
 import React from 'react'
 import './kategorihero.css'
 import { Link } from 'react-router-dom'
-import aksiyon from '../../images/kategoriler/aksiyon.png'
-import ask from '../../images/kategoriler/ask.png'
-import bilimkurgu from '../../images/kategoriler/bilimkurgu.png'
-import fantastik from '../../images/kategoriler/fantastik.png'
-import korku from '../../images/kategoriler/korku.png'
-import macera from '../../images/kategoriler/macera.png'
-import mizah from '../../images/kategoriler/mizah.png'
-import tarih from '../../images/kategoriler/tarih.png'
-import siir from '../../images/kategoriler/siir.png'
 
 const Kategorihero = () => {
 
   return (
-    <div className="kategorilerall">
-      <div className='kategoriler'>
-        <Link to='/kategoriler/aksiyon' target='_top' className="kategori">
-          <img src={aksiyon} alt="aksiyon" />
-          <div className="overlay">
-            <p className='text'>Aksiyon</p>
-          </div>
-        </Link>
-        <Link to='/kategoriler/aksiyon' target='_top' className="kategori">
-          <img src={ask} alt="ask" />
-          <div className="overlay">
-            <p className='text'>Aşk</p>
-          </div>
-        </Link>
-        <Link to='/kategoriler/aksiyon' target='_top'  className="kategori">
-          <img src={bilimkurgu} alt="bilim kurgu" />
-          <div className="overlay">
-            <p className='text' style={{width:'200px'}}>Bilim Kurgu</p>
-          </div>
-        </Link>
+    
+    <div className="kategoriicerikall">
+      <div className="kategorilertrio">
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='aksiyon'>#Aksiyon</Link>
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='ask'>#Aşk</Link>
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='bilimkurgu'>#Bilim Kurgu</Link>
       </div>
-      <div className='kategoriler'>
-        <Link to='/kategoriler/aksiyon' target='_top' className="kategori">
-          <img src={fantastik} alt="fantastik" />
-          <div className="overlay">
-            <p className='text'>Fantastik</p>
-          </div>
-        </Link>
-        <Link to='/kategoriler/aksiyon' target='_top' className="kategori">
-          <img src={korku} alt="korku" />
-          <div className="overlay">
-            <p className='text'>Korku</p>
-          </div>
-        </Link>
-        <Link to='/kategoriler/aksiyon' target='_top' className="kategori">
-          <img src={macera} alt="macera" />
-          <div className="overlay">
-            <p className='text'>Macera</p>
-          </div>
-        </Link>
+      <div className="kategorilertrio">
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='fantastik'>#Fantastik</Link>
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='korku'>#Korku</Link>
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='macera'>#Macera</Link>
       </div>
-      <div className='kategoriler'>
-        <Link to='/kategoriler/aksiyon' target='_top' className="kategori">
-          <img src={mizah} alt="mizah" />
-          <div className="overlay">
-            <p className='text'>Mizah</p>
-          </div>
-        </Link>
-        <Link to='/kategoriler/aksiyon' target='_top' className="kategori">
-          <img src={siir} alt="siir" />
-          <div className="overlay">
-            <p className='text'>Şiir</p>
-          </div>
-        </Link>
-        <Link  to='/kategoriler/aksiyon' target='_top' className="kategori">
-          <img src={tarih} alt="tarih" />
-          <div className="overlay">
-            <p className='text'>Tarih</p>
-          </div>
-        </Link>
+      <div className="kategorilertrio">
+      </div>
+      <div className="kategorilertrio">
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='mizah'>#Mizah</Link>
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='tarih'>#Tarih</Link>
+        <Link className='kategorilnk' to='/kategoriler/aksiyon' target='_top' id='siir'>#Şiir</Link>
       </div>
     </div>
   )

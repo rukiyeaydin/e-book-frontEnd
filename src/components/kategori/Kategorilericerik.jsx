@@ -25,9 +25,9 @@ const Kategorilericerik = () => {
       </div>
       <div className="kikitaplar">
         <div className="kikitap">
-          <Link to="/kitap"><img src={babalar} alt="" /></Link>
+          <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/kitap-info" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
             <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
@@ -43,9 +43,9 @@ const Kategorilericerik = () => {
           </div>
         </div>
         <div className="kikitap">
-          <Link to="/kitap"><img src={babalar} alt="" /></Link>
+          <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/kitap-info" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
             <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
@@ -61,9 +61,9 @@ const Kategorilericerik = () => {
           </div>
         </div>
         <div className="kikitap">
-          <Link to="/kitap"><img src={babalar} alt="" /></Link>
+          <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/kitap-info" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
             <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
@@ -79,9 +79,9 @@ const Kategorilericerik = () => {
           </div>
         </div>
         <div className="kikitap">
-          <Link to="/kitap"><img src={babalar} alt="" /></Link>
+          <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/kitap-info" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
             <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
@@ -97,9 +97,9 @@ const Kategorilericerik = () => {
           </div>
         </div>
         <div className="kikitap">
-          <Link to="/kitap"><img src={babalar} alt="" /></Link>
+          <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/kitap-info" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
             <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
@@ -115,9 +115,9 @@ const Kategorilericerik = () => {
           </div>
         </div>
         <div className="kikitap">
-          <Link to="/kitap"><img src={babalar} alt="" /></Link>
+          <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/kitap-info" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
             <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
@@ -133,9 +133,9 @@ const Kategorilericerik = () => {
           </div>
         </div>
         <div className="kikitap">
-          <Link to="/kitap"><img src={babalar} alt="" /></Link>
+          <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/kitap-info" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
             <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
@@ -151,9 +151,9 @@ const Kategorilericerik = () => {
           </div>
         </div>
         <div className="kikitap">
-          <Link to="/kitap"><img src={babalar} alt="" /></Link>
+          <Link to="/kitap-info"><img src={babalar} alt="" /></Link>
           <div className="kisag">
-            <Link to="/kitap" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
+            <Link to="/kitap-info" className='kibaslik'><p className="kibaslik">Babalar ve Oğullar</p></Link>
             <Link to="/profil" className="kiyazar">By Turgenyev</Link>
             <div className="kiistatik">
               <span className="read-count">
@@ -168,6 +168,7 @@ const Kategorilericerik = () => {
             </div>
           </div>
         </div>
+ 
 
       </div>
     </div>
