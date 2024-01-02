@@ -24,7 +24,7 @@
     margin-right: 10px;
 }
 .discs button:hover{
-    background-color: #d6d6d6;
+    background-color: #454545;
 }
 .disc1.active, .disc2.active, .disc3.active, .disc4.active, .disc5.active, .disc6.active {
     background-color: black;

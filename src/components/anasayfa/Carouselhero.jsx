@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './carousel.css';
 import cr1 from '../../images/carouselImages/cr1.png';
 import cr2 from '../../images/carouselImages/cr2.png';
@@ -15,6 +15,19 @@ const Carouselhero = () => {
     setActiveImage(image);
     setActiveButton(buttonClass);
   }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+
+      const carouselImages = [cr1, cr2, cr3, cr4, cr5, cr6];
+      const currentIndex = carouselImages.indexOf(activeImage);
+      const nextIndex = (currentIndex + 1) % carouselImages.length;
+
+      handleCarousel(carouselImages[nextIndex], `disc${nextIndex + 1}`);
+    }, 2000); 
+
+    return () => clearInterval(interval);
+  }, [activeImage]); 
 
   return (
     <div className="carousel">
