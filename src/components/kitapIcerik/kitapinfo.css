@@ -41,6 +41,19 @@
     text-decoration: none;
     border-bottom: 1px solid #bebebe;
 }
+.infoadd{
+    font-size: x-large;
+    color: #1cb1c8;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.infotrash{
+    font-size: x-large;
+    color: crimson;
+    cursor: pointer;
+
+}
 
 @media screen and (max-width: 800px) {
     .kitapinfoinc{

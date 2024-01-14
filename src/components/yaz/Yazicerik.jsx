@@ -35,6 +35,10 @@ const Yazicerik = () => {
   return (
     <div className='yazicerik'>
         <h2>Babalar ve Oğullar</h2>
+        <div className="yazicerikbb">
+          <p className='yhbaslik'>Bölüm Başlığı</p>
+          <input type="text" placeholder='Bölüm başlığı' className='yazicerikinput'/>
+        </div>
         <div className='quill'>
             <div ref={quillRef} />
         </div>

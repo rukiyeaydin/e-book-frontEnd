@@ -2,6 +2,8 @@ import React from 'react'
 import './kitapinfo.css'
 import { Link } from 'react-router-dom'
 import babalar from "../../images/seninicinoneriler/babalar.jpg"
+import { MdOutlineAddToPhotos } from "react-icons/md";
+import { IoMdTrash } from "react-icons/io";
 
 const Kitapinfo = () => {
   return (
@@ -16,7 +18,12 @@ const Kitapinfo = () => {
                 <p style={{marginTop:"20px"}}><b>Kategori :  </b> <Link className='kitapinfolinks' to="/kategoriler/aksiyon">Aksiyon</Link></p>
                 <p style={{marginTop:"20px"}}><b>Yazar :  </b> <Link className='kitapinfolinks' to="/profil" >Turgenyev</Link></p>
                 <button className='kitapinfobuton'><Link to="/kitap" target='_top' className='kitapinfolink'>Okumaya Başla</Link></button>
+                <div className="infobtns">
+                  <MdOutlineAddToPhotos className='infoadd'/>
+                  <IoMdTrash className='infotrash' />
+                </div>
             </div>
+
         </div>
     </div>
   )

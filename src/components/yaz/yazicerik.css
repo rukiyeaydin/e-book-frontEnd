@@ -28,6 +28,22 @@
     margin-bottom: 8vh;
 }
 
+.yazicerikbb{
+    width: 90%;
+    margin-bottom: 30px;
+}
+.yazicerikinput{
+    padding: 5px 10px;
+    resize: none;
+    height: 35px;
+    border: 1px solid #c2c2c2;
+    font-size: medium;
+}
+.yazicerikinput:focus{
+    outline: 1px solid #45c7db;
+    border-radius: 2px;
+}
+
 @media screen and (max-width: 450px) {
     .quill{
         width: 96%;
