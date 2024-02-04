@@ -6,8 +6,7 @@ import { BiSolidPencil } from 'react-icons/bi'
 import aurora from '../images/blackaurora.jpg';
 import logo from '../images/Rkm.png';
 import Dropdown from './dropdown/Dropdown';
-import { RiSearchLine } from "react-icons/ri";
-import { IoMdClose } from "react-icons/io";
+import Modal from './modal/Modal';
 
 const Navbar = () => {
   const location = useLocation();
@@ -49,6 +48,8 @@ const Navbar = () => {
   return (
     <div className={openNavbar ?  "navbar" : "navbar active"} id='top'>
       <Link to="/" className='navbar-logo' style={{display:'flex',alignItems:'center',justifyContent:'center'}}><img src={logo} alt="logo" className='logo'/><h3 className='font-bold'>RKM</h3></Link>
+      <Modal />
+
       <ul className={openNavbar ?  "navbar-menu active" : "navbar-menu"}>
           <li><Link to="/" className={`navbar-links ${location.pathname === '/' ? 'active' : ''}`}>Anasayfa</Link></li>
           <li><Link to="/kategoriler" className={`navbar-links ${location.pathname === '/kategoriler' ? 'active' : ''}`}>Kategoriler</Link></li>
